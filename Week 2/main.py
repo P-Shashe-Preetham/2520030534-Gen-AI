@@ -10,7 +10,7 @@ load_dotenv(override = True)
 
 provider_name = input(
     "Choose provider (gemini/ollama):"
-)strip().lower()
+).strip().lower()
 
 if provider_name == "gemini":
 
